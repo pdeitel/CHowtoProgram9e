@@ -4,10 +4,10 @@
 #include <time.h>
 
 void guessGame(void); // function prototype
-int isCorrect(int, int); // function prototype
+int isCorrect(int guess, int answer); // function prototype
 
 int main(void) {
-   // srand(time(0)); // seed random number generator
+   srand(time(0)); // seed random number generator
    guessGame();
 } // end main
 
