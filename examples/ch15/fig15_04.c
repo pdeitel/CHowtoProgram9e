@@ -43,7 +43,7 @@ void signalHandler(int signalValue) {
       scanf("%d", &response);
    } 
    
-   // determine whether it
+   // determine whether to continue
    if (response == 1) {
       // reregister signal handler for next SIGINT
       signal(SIGINT, signalHandler);              

@@ -43,7 +43,7 @@ int main(void) {
    printf("pow(%.1f, %.1f) = %.1f\n", 9.0, 0.5, pow(9.0, 0.5));
    
    // calculates and outputs fmod(x, y)
-   printf("fmod(%.3f/%.3f) = %.3f\n", 13.657, 2.333, 
+   printf("fmod(%.3f, %.3f) = %.3f\n", 13.657, 2.333, 
       fmod(13.657, 2.333));
 
    // calculates and outputs sin(x)

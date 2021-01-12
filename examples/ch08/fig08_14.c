@@ -5,8 +5,8 @@
 
 int main(void) {
    const char *string = "This is a test"; // initialize char pointer 
-   char character1 = 'a'; // initialize character1
-   char character2 = 'z'; // initialize character2
+   char character1 = 'a'; 
+   char character2 = 'z'; 
    
    // if character1 was found in string
    if (strchr(string, character1) != NULL) { // can remove "!= NULL"

@@ -5,8 +5,8 @@
 
 // card structure definition            
 struct card {                           
-   char *face; // define pointer face   
-   char *suit; // define pointer suit
+   const char *face; // define pointer face   
+   const char *suit; // define pointer suit
 };                                 
 
 int main(void) {

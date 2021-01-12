@@ -1,4 +1,4 @@
-// fig12_05.c
+// fig12_04.c
 // Creating and traversing a binary tree 
 // preorder, inorder, and postorder
 #include <stdio.h>
@@ -13,7 +13,7 @@ struct treeNode {
 };                                                        
 
 typedef struct treeNode TreeNode; // synonym for struct treeNode
-typedef TreeNode *TreeNodePtr; // synonym for TreeNode*
+typedef TreeNode *TreeNodePtr; // synonym for TreeNode *
 
 // prototypes
 void insertNode(TreeNodePtr *treePtr, int value);

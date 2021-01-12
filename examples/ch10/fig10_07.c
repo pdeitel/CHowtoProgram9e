@@ -21,7 +21,7 @@ int main(void) {
    fillDeck(deck);
 
    puts("Card values 0-12 correspond to Ace through King");
-   puts("Suit values 0-3 correspond Hearts, Diamonds, Clubs and Spades");
+   puts("Suit values 0-3 correspond to Hearts, Diamonds, Clubs and Spades");
    puts("Color values 0-1 correspond to red and black\n");
    deal(deck);
 }

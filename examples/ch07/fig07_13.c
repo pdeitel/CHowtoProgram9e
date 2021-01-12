@@ -1,5 +1,5 @@
 // fig07_13.c
-// Using operator sizeof to determine standard data type sizes.
+// Using operator sizeof to determine standard type sizes.
 #include <stdio.h>
 
 int main(void) {

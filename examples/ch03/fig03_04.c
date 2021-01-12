@@ -29,7 +29,7 @@ int main(void) {
    if (counter != 0) {
 
       // calculate average of all grades entered
-      double average = (double)total / counter; // avoid truncation
+      double average = (double) total / counter; // avoid truncation
 
       // display average with two digits of precision
       printf("Class average is %.2f\n", average);

@@ -1,5 +1,5 @@
 // fig05_03.c
-// Demonstrating the function call stack 
+// Demonstrating the function-call stack 
 // and stack frames using a function square.
 #include <stdio.h>
 

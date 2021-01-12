@@ -1,4 +1,4 @@
-// Fig. 8.8: fig08_11.c
+// fig08_08.c
 // Using function getchar.
 #include <stdio.h>
 #define SIZE 80

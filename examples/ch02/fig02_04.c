@@ -4,8 +4,8 @@
 
 // function main begins program execution 
 int main(void) {
-   int integer1 = 0; // will hold first number to be entered by user 
-   int integer2 = 0; // will hold second number to be entered by user
+   int integer1 = 0; // will hold first number user enters 
+   int integer2 = 0; // will hold second number user enters
 
    printf("Enter first integer: "); // prompt
    scanf("%d", &integer1); // read an integer

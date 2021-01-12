@@ -15,8 +15,8 @@ typedef QueueNode *QueueNodePtr;
 // function prototypes
 void printQueue(QueueNodePtr currentPtr);
 int isEmpty(QueueNodePtr headPtr);
-char dequeue(QueueNodePtr *headPtr, QueueNodePtr *tailPtr);
 void enqueue(QueueNodePtr *headPtr, QueueNodePtr *tailPtr, char value);
+char dequeue(QueueNodePtr *headPtr, QueueNodePtr *tailPtr);
 void instructions(void);
 
 int main(void) {
@@ -40,9 +40,7 @@ int main(void) {
             break;
          case 2: // dequeue value
             // if queue is not empty
-
             if (!isEmpty(headPtr)) { 
-
                item = dequeue(&headPtr, &tailPtr);
                printf("%c has been dequeued.\n", item);
             } 

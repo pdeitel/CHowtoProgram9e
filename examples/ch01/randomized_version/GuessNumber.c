@@ -1,10 +1,11 @@
 // Randomly generate numbers between 1 and 1000 for user to guess.
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 void guessGame(void); // function prototype
-int isCorrect(int guess, int answer); // function prototype
+bool isCorrect(int guess, int answer); // function prototype
 
 int main(void) {
    srand(time(0)); // seed random number generator
@@ -47,10 +48,10 @@ void guessGame(void) {
 
 // isCorrect returns true if guess equals answer
 // if guess does not equal answer, displays hint
-int isCorrect(int guess, int answer) {
+bool isCorrect(int guess, int answer) {
    // guess is correct
    if (guess == answer) {
-      return 1;
+      return true;
    }
 
    // guess is incorrect; display hint
@@ -61,7 +62,7 @@ int isCorrect(int guess, int answer) {
       printf( "%s", "Too high. Try again.\n? " );
    }
 
-   return 0;
+   return false;
 } // end function isCorrect
 
 

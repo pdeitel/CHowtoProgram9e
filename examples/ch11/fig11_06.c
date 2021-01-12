@@ -1,4 +1,4 @@
-// fig11_07.c
+// fig11_06.c
 // Reading a random-access file sequentially
 #include <stdio.h>
 
@@ -25,7 +25,8 @@ int main(void) {
       while (!feof(cfPtr)) { 
          // read a record
          struct clientData client = {0, "", "", 0.0};
-         int result = fread(&client, sizeof(struct clientData), 1, cfPtr);
+         size_t result = 
+            fread(&client, sizeof(struct clientData), 1, cfPtr);
 
          // display record
          if (result != 0 && client.account != 0) {

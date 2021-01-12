@@ -12,7 +12,7 @@ int main(void) {
 
    // for each element of array n, output a bar of the bar chart
    for (size_t i = 0; i < SIZE; ++i) {
-      printf("%7zu%13d        ", i, n[i]);
+      printf("%7zu%13d%8s", i, n[i], "");
 
       for (int j = 1; j <= n[i]; ++j) { // print one bar
          printf("%c", '*');                             

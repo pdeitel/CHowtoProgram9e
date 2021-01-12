@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 int main(void) {
-   int x = 12345; // initialize int x
-   int *ptr = &x; // assign address of x to ptr
+   int x = 12345; 
+   int *ptr = &x; 
    
    printf("The value of ptr is %p\n", ptr); 
    printf("The address of x is %p\n\n", &x);

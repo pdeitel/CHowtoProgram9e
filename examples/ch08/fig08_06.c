@@ -1,4 +1,4 @@
-// fig08_08.c
+// fig08_06.c
 // Using function strtoul
 #include <stdio.h>
 #include <stdlib.h>

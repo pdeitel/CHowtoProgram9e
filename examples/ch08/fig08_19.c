@@ -1,17 +1,15 @@
-// Fig. 8.25: fig08_25.c
+// fig08_19.c
 // Using function strstr
 #include <stdio.h>
 #include <string.h>
 
-int main(void) { 
-   const char *string1 = "abcdefabcdef"; // string to search
+int main(void) {
+   const char *string1 = "abcdefabcdef"; 
    const char *string2 = "def"; // string to search for
 
-   printf("%s%s\n%s%s\n\n%s\n%s%s\n",
-      "string1 = ", string1, "string2 = ", string2,
+   printf("string1 = %s\nstring2 = %s\n\n%s\n%s%s\n", string1, string2, 
       "The remainder of string1 beginning with the",
-      "first occurrence of string2 is: ", 
-      strstr(string1, string2));
+      "first occurrence of string2 is: ", strstr(string1, string2));
 } 
 
 

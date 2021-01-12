@@ -67,7 +67,7 @@ void merge(int array[], size_t left, size_t middle1,
    size_t leftIndex = left; // index into left subarray 
    size_t rightIndex = middle2; // index into right subarray 
    size_t combinedIndex = left; // index into temporary array 
-   int tempArray[SIZE]; // temporary array 
+   int tempArray[SIZE] = {0}; // temporary array 
     
    // output two subarrays before merging 
    printf("%s", "merge:   ");

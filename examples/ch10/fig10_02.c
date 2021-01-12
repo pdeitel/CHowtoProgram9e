@@ -16,8 +16,7 @@ struct card {
 typedef struct card Card; // new type name for struct card   
 
 // prototypes
-void fillDeck(Card * const deck, const char *faces[], 
-   const char *suits[]);
+void fillDeck(Card * const deck, const char *faces[], const char *suits[]);
 void shuffle(Card * const deck);
 void deal(const Card * const deck);
 

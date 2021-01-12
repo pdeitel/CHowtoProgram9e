@@ -36,7 +36,7 @@ int main(void) {
 
 // calculate average of all response values
 void mean(const int answer[]) {
-   printf("%s\n%s\n%s\n", "********", "  Mean", "********");
+   printf("%s\n%s\n%s\n", "--------", "  Mean", "--------");
 
    int total = 0; // variable to hold sum of array elements
 
@@ -55,7 +55,7 @@ void mean(const int answer[]) {
 
 // sort array and determine median element's value
 void median(int answer[]) {
-   printf("\n%s\n%s\n%s\n%s",  "********", " Median", "********", 
+   printf("\n%s\n%s\n%s\n%s", "--------", " Median", "--------", 
           "The unsorted array of responses is");
 
    printArray(answer); // output unsorted array
@@ -74,7 +74,7 @@ void median(int answer[]) {
 
 // determine most frequent response
 void mode(int freq[], const int answer[]) {
-   printf("\n%s\n%s\n%s\n","********", "  Mode", "********");
+   printf("\n%s\n%s\n%s\n", "--------", "  Mode", "--------");
 
    // initialize frequencies to 0
    for (size_t rating = 1; rating <= 9; ++rating) {
@@ -119,9 +119,7 @@ void mode(int freq[], const int answer[]) {
 } 
 
 // function that sorts an array with bubble sort algorithm
-
 void bubbleSort(int a[]) {
-
    // loop to control number of passes
    for (int pass = 1; pass < SIZE; ++pass) {
       // loop to control number of comparisons per pass

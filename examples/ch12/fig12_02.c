@@ -1,4 +1,4 @@
-// Fig// fig12_02.c
+// fig12_02.c
 // A simple stack program
 #include <stdio.h>
 #include <stdlib.h>

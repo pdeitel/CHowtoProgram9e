@@ -44,8 +44,8 @@ int binarySearch(const int b[], int key, size_t low, size_t high) {
       // display subarray used in this loop iteration
       printRow(b, low, middle, high);
 
-      
-      if (key == b[middle]) { // if key matches, return middle subscript
+      // if key matches, return middle subscript
+      if (key == b[middle]) {
          return middle;                                       
       }                                           
       else if (key < b[middle]) { // if key < b[middle], adjust high

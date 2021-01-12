@@ -1,14 +1,13 @@
-// Fig. 8.32: fig08_32.c
+// fig08_25.c
 // Using function memset
 #include <stdio.h>
 #include <string.h>
 
-int main(void) { 
-   char string1[15] = "BBBBBBBBBBBBBB"; // initialize string1
+int main(void) {
+   char string1[15] = "BBBBBBBBBBBBBB"; 
    
    printf("string1 = %s\n", string1);
-   printf("string1 after memset = %s\n", 
-      (char *) memset(string1, 'b', 7)); 
+   printf("string1 after memset = %s\n", (char *) memset(string1, 'b', 7)); 
 } 
 
 /**************************************************************************

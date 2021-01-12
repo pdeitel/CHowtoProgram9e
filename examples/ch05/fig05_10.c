@@ -1,5 +1,5 @@
 // fig05_10.c
-// Recursive fibonacci function
+// Recursive fibonacci function.
 #include <stdio.h>
 
 unsigned long long int fibonacci(int n); // function prototype

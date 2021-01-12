@@ -16,7 +16,7 @@ int main(void) {
       goto start; // goto start on line 9
 
    end: // label
-      putchar();
+      putchar('\n');
 } 
 
 

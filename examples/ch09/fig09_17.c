@@ -1,5 +1,5 @@
 // fig09_17.c
-// inputting data with a field width
+// Inputting data with a field width
 #include <stdio.h>
 
 int main(void) {
